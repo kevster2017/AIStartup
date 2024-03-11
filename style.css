@@ -1,0 +1,67 @@
+#faqs {
+    background-color: bisque;
+}
+
+#contact {
+    background-color: lightcyan;
+}
+
+#contactImage {
+    width: 100%;
+}
+
+.hidden-text {
+    display: none;
+  }
+
+  .show {
+    display: block !important;
+  }
+
+  .video-container-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+  }
+  
+  .video-container video {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .text-overlay {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 5vw;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  h2, h3 {
+    color: black;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(148, 146, 146, 0.5);
+  }
+
+
+  .card:hover {
+background-color: rgb(234, 241, 234);
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .fa-regular {
+    background-color: white;
+  }
