@@ -65,3 +65,12 @@ box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   .fa-regular {
     background-color: white;
   }
+
+ 
+  /* CSS for the background color gradient */
+  #introSection {
+  height: 125vh; /* 150% of viewport height */
+  background: linear-gradient(to bottom, black 0%, navy 50%, lightblue 100%);
+  color: white;
+}
+
