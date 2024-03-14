@@ -59,3 +59,12 @@
   color: white;
   background-color: black;
 }
+
+.newsletterBackground {
+background-color: black;
+}
+
+.newsletter {
+  color: rgb(163, 157, 157);
+  background-color: rgb(24, 28, 28);
+}
