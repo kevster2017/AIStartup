@@ -51,8 +51,9 @@
   }
 }
 
-.crafting {
+.crafting, .revolutionizing {
   background-color: black;
+  text-align: center;
 }
 
 .card {
@@ -68,3 +69,4 @@ background-color: black;
   color: rgb(163, 157, 157);
   background-color: rgb(24, 28, 28);
 }
+
