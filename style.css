@@ -85,10 +85,10 @@ iframe {
 }
 
 .questions {
-
   border: 1px solid grey;
   padding: 1%;
   background-color: rgb(24, 28, 28);
+  text-align: left;
 }
 
 .hidden-text {
