@@ -74,3 +74,8 @@ background-color: black;
 #streamlineImg {
   width: 90%;
 }
+
+iframe {
+  width: 70%;
+  height: 100%;
+}
