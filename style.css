@@ -17,6 +17,7 @@
 #robotImage {
   width: 100%;
   height:auto;
+  transition: transform 0.5s ease-in-out;
 }
 
 .introText{
