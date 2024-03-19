@@ -15,9 +15,10 @@
 }
 
 #robotImage {
-  width: 100%;
-  height:auto;
+  width: auto;
+  height:100%;
   transition: transform 0.5s ease-in-out;
+  margin-bottom: 5%;
 }
 
 
