@@ -133,14 +133,14 @@
 
     <!-- Section Crafting Solutions and Cards -->
     <div class="container-fluid crafting">
-      <div class="py-5 mt-5">
+      <div class="py-5 mt-5 fade-in-element">
         <h2 class="text-white">
           Crafting Solutions for <span class="purple-text">Tomorrow's</span
           ><span class="lightblue-text"> Challenges</span>
         </h2>
       </div>
 
-      <div class="container">
+      <div class="container fade-in-element">
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
             <div class="card h-100">
@@ -695,6 +695,22 @@
 
         document.getElementById("robotImage").style.transform =
           "rotateX(" + tiltAngle + "deg)";
+      });
+    </script>
+
+    <script>
+      window.addEventListener("scroll", function () {
+        var elements = document.querySelectorAll(".fade-in-element");
+
+        elements.forEach(function (element) {
+          var position = element.getBoundingClientRect().top;
+          var windowHeight = window.innerHeight;
+
+          // Check if the element is in view
+          if (position < windowHeight) {
+            element.classList.add("fade-in");
+          }
+        });
       });
     </script>
 
